@@ -30,7 +30,38 @@
 
 
 .picwidth{
-  width:100%;
+  width:50%;
+      /* background: #F8F7F1; */
+}
+
+.bg-image{
+  /* background-image: url('./components/assets/_Pngtree_blob_spot_watercolor_splash_effect_5478780-removebg-preview.png'); */
+  background-image: url('./components/assets/splash-removebg-preview.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-duration: 1s;
+  animation-name: slideInUp;
+}
+.box{
+animation-duration: 1s;
+  animation-name: slideInUp;
+}
+@keyframes slideInUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* .slideInUp {
+  animation-name: slideInUp;
+} */
+.LazyLoad{
+  /* background-color: #282c34; */
 }
 @keyframes App-logo-spin {
   from {
